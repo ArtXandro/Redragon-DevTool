@@ -1,0 +1,15 @@
+html, body {
+    background-color: black;
+    font-family: sans-serif;
+    margin: auto;
+    padding: auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    justify-content: start;
+}
