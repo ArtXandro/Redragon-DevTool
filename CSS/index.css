@@ -1,15 +1,18 @@
 html, body {
     background-color: black;
     font-family: sans-serif;
-    margin: auto;
-    padding: auto;
+    
 }
-
+/*CSS del header y del logo*/
 header {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    background-color: #111;
+    padding: 0 55px;
 }
 
+
 .logo {
-    justify-content: start;
+    
 }
+/*Css del baner movil de la portada*/
