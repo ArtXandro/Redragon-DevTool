@@ -52,3 +52,17 @@ header {
     }
 }
 
+.links {
+    padding: 4%;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.border {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
