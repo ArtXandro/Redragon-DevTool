@@ -12,28 +12,37 @@
 
 <!--Header con el logo y los botones de enlaces-->
     <header class="header">
-        
         <div class="logo">
         <img src="../IMG/Home/Logo_300x300.png" width="100px" alt="ReDragon Logo">
         </div> 
 
-        <div class="buttons">
-            <a href=""><button class="navbutom">Products</button></a>
-            <a href=""><button class="navbutom">Download</button></a>
-            <a href=""><button class="navbutom">Suport</button></a>
-            <a href=""><button class="navbutom">New Lounch</button></a>
-        </div>
+        <nav class="buttons">
+            <li class="pop-up">Products</li>
+
+            <li>
+                <a href="" class="Download">Download</a>
+            </li>
+
+            <li>
+                <a href="" class="Support">Support</a> 
+            </li>
+
+            <li>
+                <a href="" class="New-Launch">New Launch</a>
+            </li>
+        </nav>
     </div>
     </header>
 
 <!--Banners que estan en movimiento -->
     <div class="movil">
-        <img src="../IMG/Home/baner1.jpg" alt="Banner 1">
+    <div class="capa"></div>
+        <!-- <img src="../IMG/Home/baner1.jpg" alt="Banner 1">
         <img src="../IMG/Home/baner2.jpg" alt="Bener 2">
         <img src="../IMG/Home/baner3.png" alt="Banner 3">
         <img src="../IMG/Home/baner4.png" alt="Banner 4">
         <img src="../IMG/Home/baner5.png" alt="Banner 5">
-        <img src="../IMG/Home/baner6.jpg" alt="Banner 6">
+        <img src="../IMG/Home/baner6.jpg" alt="Banner 6"> -->
     </div>
 
 <!--Imagnes con link a productos de Audifonos, Teclados y Mause-->
@@ -78,6 +87,8 @@
             </a>
     </div>
 
+    <div id="banner"></div>
+
 <!--Footer-->
     <footer>
         <ul>
@@ -105,5 +116,6 @@
             <a href=""><button class="navbutom">Contact Us</button></a>
           </ul>
     </footer>
+    <script src="../Script/Banner.js"></script>
 </body>
 </html>

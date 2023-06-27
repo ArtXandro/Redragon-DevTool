@@ -1,18 +1,54 @@
 html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color: black;
     font-family: sans-serif;
+    color: rgb(226, 13, 13);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 /*CSS del header y del logo*/
 header {
     display: flex;
-    flex-direction: row;
     background-color: #111;
     padding: 0 55px;
-}
 
+}
 
 .logo {
-    
+   
 }
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
 /*Css del baner movil de la portada*/
+.movil {
+    width: 100%;
+    height: 600px;
+    animation: movil 10s infinite linear alternate;
+    background-size: 100% 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes movil {
+    0%, 20%{
+        background-image: url(../IMG/Home/baner1.jpg);
+    }
+    25%, 45%{
+        background-image: url(../IMG/Home/baner2.jpg);
+    }
+    50%, 70%{
+        background-image: url(../IMG/Home/baner3.png);
+    }
+    75%, 100%{
+        background-image: url(../IMG/Home/baner4.png);
+    }
+}
+
