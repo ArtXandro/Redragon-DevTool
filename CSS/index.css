@@ -5,11 +5,14 @@ html, body {
     padding: auto;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-}
+
 
 .logo {
-    justify-content: start;
+    display: flex;
+    align-items: flex-start;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
 }
