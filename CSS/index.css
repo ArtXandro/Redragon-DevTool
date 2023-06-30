@@ -243,3 +243,15 @@ html, body {
     background: url("../IMG/Home/new-product-background.jpg") right bottom no-repeat; }
 
 /*================ Quotes ================*/
+
+.quotes-wrapper {
+    display: flex;
+    flex-direction: center;
+    color: #ffffff;
+
+}
+
+.rte-settings {
+    display: flex;
+    
+}
