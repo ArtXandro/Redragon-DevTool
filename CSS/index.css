@@ -1,3 +1,4 @@
+/*================ Codigo CSS de el Cuerpo de la pagina ================*/
 html, body {
     margin: 0;
     padding: 0;
@@ -8,19 +9,33 @@ html, body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
-/*CSS del header y del logo*/
-header {
+/*================ Header ================*/
+.cavezera {
     display: flex;
+    justify-content: space-between;
     background-color: #111;
-    padding: 0 55px;
-    position: relative;
-
+    padding: 1% 55px;
+  
 }
 
+.logo {
+   display: flex;
+}
 
-.button {
-    display: flex;
-    justify-content: center;
+.buttons {
+    margin: 1%;
+    size: auto;
+}
+
+.nav-button {
+    padding: 0 50px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-button:hover {
+  color: #F51010;
+  transform: translateY(-3px) scale(1.05);
 }
 
 /*Css del baner movil de la portada*/
